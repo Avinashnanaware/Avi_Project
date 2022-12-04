@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %} 
+<div class="mt-5">
+ <div class="text-center">
+  <img src="{% static 'core/images/avi.jpg' %}" alt="ProfilePic" class="img-thumbnail" width="250px" height="150px">
+ </div>
+ <div class="mt-5 text-dark mx-5 text-justify">
+  <h1 class="font-weight-bold">Hello,</h1>
+  <div class="px-4" style="line-height:2rem;">
+   <p style="text-indent:100px;"> I am <b class="text-warning">Avinash Nanaware</b> I have done my B.E. in Mechanical from Savitribai Phule Pune University with first class with distiction in the year 2021.</p>
+   <p>After that because of market demmand i have successfully done <b class="text-warning">Python development + Machine Learning + Deep Learning + Data Science</b> Course.</p>
+   <p>I have Strong knowledge of  Core Python and Advance Python (OOPs concept) & Good in Data Science and Machine Learning Such as Data Visualization, Predictive Analysis, Statistical Modeling, Data Mining, Clustering & Classification, Data Analytics, Quantitative Analysis, Web Scraping, ML Algorithms, Model Development     </p>
+  </div>
+ </div>
+ <div class="text-center">
+  <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+  <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+ </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+}
+
+.container-fluid {
+  min-height: 100%;
+}
+
+/* Service Icon Color */
+.i-color {
+  color: chartreuse;
+}
+
+/* Service Subtitle Color */
+.sss-color {
+  color: black;
+}
+
